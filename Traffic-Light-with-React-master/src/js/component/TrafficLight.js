@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-// Creating the Traffic Light component
 export const TrafficLight = () => {
 	const [color, setColor] = useState("red");
 
 	return (
 		<>
-			{/* Main div for the traffic light */}
 			<div className="trafficlight">
-				{/* Div's for the individual traffic lights */}
 				<div
 					className={
 						color == "red"
@@ -33,7 +30,6 @@ export const TrafficLight = () => {
 					onClick={() => setColor("green")}></div>
 			</div>
 
-			{/* Creating bottom pole of traffic light */}
 			<div className="stick" onClick={() => setColor("")}></div>
 		</>
 	);

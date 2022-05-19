@@ -1,14 +1,11 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-// General Styles
 
 body {
-    background-color: #1abc9c;
+    background-color: #c47ad3;
 }
 
-// Class Styles
 
-// Traffic light box and Traffic light styling
 .trafficlight {
     width: 125px;
     max-width: 700px;
@@ -28,7 +25,6 @@ body {
     padding: 10px;
 }
 
-// Color classes
 .red {
     background-color: red;
     color: red;
@@ -62,7 +58,6 @@ body {
     border-bottom-right-radius: 5px;
 }
 
-// light effect
 .highlight {
     box-shadow: 0 0 20px 5px
 }
