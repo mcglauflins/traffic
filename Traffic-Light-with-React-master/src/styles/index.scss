@@ -1,0 +1,68 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+// General Styles
+
+body {
+    background-color: #1abc9c;
+}
+
+// Class Styles
+
+// Traffic light box and Traffic light styling
+.trafficlight {
+    width: 125px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 10px !important;
+    background-color: rgb(41, 37, 37);
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin: auto;
+    padding: 10px;
+}
+
+// Color classes
+.red {
+    background-color: red;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.yellow {
+    background-color: yellow;
+    color: yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.green {
+    background-color: green;
+    color: green;
+    margin-top: 10px;
+}
+
+.black {
+    background-color: black !important;
+}
+
+.stick {
+    width: 25px;
+    max-width: 700px;
+    margin: auto;
+    height: 250px;
+    background-color: rgb(41, 37, 37);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+// light effect
+.highlight {
+    box-shadow: 0 0 20px 5px
+}
